@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.propass.MainActivity$PlaceholderFragment"
+    android:id="@+id/firstpage" >
+
+      
+
+      <TextView
+          android:id="@+id/apptagline"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="100dp"
+          android:text="@string/tagl"
+          android:textColor="#C02938"
+          android:textSize="20sp"
+          android:textStyle="italic" />
+
+      <TextView
+          android:id="@+id/appname"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/apptagline"
+          android:layout_centerHorizontal="true"
+          android:padding="2dp"
+          android:shadowColor="#C02938"
+          android:shadowDx="0"
+          android:shadowDy="0"
+          android:shadowRadius="7"
+          android:text="@string/Mname"
+          android:textColor="#C02938"
+          android:textSize="50sp"
+          android:textStyle="bold" />
+
+</RelativeLayout>

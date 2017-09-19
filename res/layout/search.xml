@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCC"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#FFFFFF"
+          android:shadowDx="0"
+          android:shadowDy="0"
+          android:shadowRadius="5"
+          android:textSize="25sp"
+        android:background="#800000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/rinfo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+   
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:onClick="getFare"
+        android:text="@string/faremetro" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="34dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ru" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+   
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="scolour"
+        android:text="@string/sr"
+        android:textStyle="bold" />
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     </LinearLayout>
+   
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+   
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="dcolour"
+        android:text="@string/dr"
+        android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     </LinearLayout>
+   
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="showStn"
+        android:text="@string/rtl"
+        android:textStyle="bold" />
+    
+</LinearLayout>

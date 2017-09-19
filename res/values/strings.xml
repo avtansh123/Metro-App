@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MetroAssist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="view">Station Information</string>
+    <string name="metro">DELHI METRO</string>
+    <string name="dest">Search your Destination</string>
+    <string name="map">View Route Map</string>
+    <string name="taxi">Taxi Service</string>
+    <string name="about">About Delhi Metro</string>
+    <string name="feedback">Feedback</string>
+    <string name="stn">Station Information</string>
+    <string name="red">Red Line</string>
+    <string name="green">Green Line</string>
+    <string name="gr">Green Line</string>
+    <string name="ye">Yellow Line</string>
+    <string name="bl">Blue Line</string>
+    <string name="vi">Violet Line</string>
+    <string name="or">Orange Line</string>
+    <string name="redline">Red Line</string>
+    <string name="sp">Choose Your Way</string>
+    <string-array name="stations">
+        <item>Choose Station</item>
+        <item>Adarsh Nagar</item>
+        <item>AIIMS</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjan Garh</item>
+        <item>Ashok Park</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Barakhamba Road</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chhatarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sector 10</item>
+        <item>Dwarka Sector 11</item>
+        <item>Dwarka Sector 12</item>
+        <item>Dwarka Sector 13</item>
+        <item>Dwarka Sector 14</item>
+        <item>Dwarka Sector 21</item>
+        <item>Dwarka Sector 8</item>
+        <item>Dwarka Sector 9</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govind Puri</item>
+        <item>Green Park</item>
+        <item>GTB Nagar</item>
+        <item>Guru Dronacharya</item>
+        <item>Hauz Khas</item>
+        <item>HUDA City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janakpuri East</item>
+        <item>Janakpuri West</item>
+        <item>Jangpura</item>
+        <item>Jasola Apollo</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jor Bagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar-I</item>
+        <item>Mayur Vihar Extension</item>
+        <item>MG Road</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Mundka</item>
+        <item>Nangloi</item>
+        <item>Nangloi Railway Station</item>
+        <item>Nawada</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subhash Place</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sector 15</item>
+        <item>Noida Sector 16</item>
+        <item>Noida Sctor 18</item>
+        <item>Okhla</item>
+        <item>Paschim Vihar East</item>
+        <item>Paschim Vihar West</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peera Garhi</item>
+        <item>Pitam Pura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pul Bangash</item>
+        <item>Punjabi Bagh East</item>
+        <item>Qutab Minar</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramakrishna Ashram Marg</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ramsingh Marg</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subhash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tughlakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwa Vidyalaya</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+        
+    
+    </string-array>
+        <string name="faremetro">Get Fare</string>
+        <string name="hint">0.00</string>
+        <string name="dist">Get Distance</string>
+        <string name="time">Estimated Time</string>
+        <string name="route">Intermediate Stations</string>
+        <string name="taxis">COMFY TAXI SERVICE</string>
+        <string name="t">Our taxi service provides you with comfortable rides at lowest prices.</string>
+        <string name="avail">Want to avail our services?</string>
+        <string name="yes">Yes</string>
+        <string name="no">No</string>
+        <string name="ty">Thank You For Choosing us!!</string>
+        <string name="inf">Please provide the following Information:</string>
+        <string name="st">Enter Station</string>
+        <string name="gt">Enter Gate Number</string>
+        <string name="ph">Enter Phone Number</string>
+        <string name="pass">No of passengers</string>
+        <string name="done">Done</string>
+        <string name="d">Date</string>
+        <string name="ti">Approximate Time</string>
+        <string name="times">Approximate Time</string>
+        <string name="cf">"We will give you a call regarding confirmation of taxi-booking 30 minutes before the time provided. "</string>
+        <string name="th">Thanks!! :)</string>
+        <string name="met">ABOUT DELHI METRO</string>
+        <string name="desc">The Delhi Metro is a rapid transit system serving Delhi, Gurgaon, Noida and Ghaziabad in the National Capital Region of India. The network consists of six lines with a total length of 189.63 kilometres (117.83 mi) with 142 stations of which 35 are underground. It has a combination of elevated, at-grade and underground lines and uses both broad gauge and standard gauge rolling stock.</string>
+        <string name="feed">FEEDBACK</string>
+        <string name="name">Enter your Name</string>
+        <string name="exp">Are you satisfied with Delhi metro service?</string>
+        <string name="y">Yes</string>
+        <string name="n">No</string>
+        <string name="comp">Complaints/Suggestions</string>
+        <string name="f">We would like to here from you in order to improve our service.</string>
+        <string name="rate">Rate your experience</string>
+        <string name="done1">Done</string>
+        <string name="title">Metro App</string>
+        <string name="srcol">Source Colour</string>
+        <string name="desclr">Destination Colour</string>
+        <string name="intr">Interchange Options</string>
+        <string name="intrc">Interchange Options</string>
+        <string name="note">NOTE: Check again intermediate stations through these Interchange Options.</string>
+        <string name="Mname">MetroAssist</string>
+        <string name="tag">An app about Delhi Lifeline</string>
+        <string name="tagl">Delhi Lifeline App</string>
+        <string name="rinfo">Route Information</string>
+        <string name="sr">Source Line</string>
+        <string name="dr">Destination Line</string>
+        <string name="rt">Intermediate Stations on same route</string>
+        <string name="rtl">Intermediate Stations on Same Line</string>
+        <string name="chk">NOTE: Check again route through these intermediate stations or check it under Station Information Section</string>
+        <string name="rm">Route Maps</string>
+        <string name="rml">ROUTE MAPS</string>
+        <string name="rmn">ROUTE MAPS</string>
+        <string name="ch">Choose line colour</string>
+
+</resources>
